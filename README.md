@@ -13,7 +13,17 @@
 | [Skill 入口](china-football-development/SKILL.md) | 支持 Skill 的平台可导入整个 `china-football-development` 目录。 |
 | [球员和教练工作簿](china-football-development/assets/player-coach-workbook.xlsx) | 球员跟踪、教练现场观察和教练改进计划。 |
 
-支持联网读取的模型可打开 [TXT 原始内容](https://raw.githubusercontent.com/yingzao-studio/china-football-development/main/docs/china-football-development.txt)。也可以先下载 TXT 或 DOCX，再上传到支持文件分析的模型。DOC 或 PPT 读取受限时优先使用 TXT。GitHub 的可达性及各模型可上传的格式取决于网络和平台。
+Gitee 提供免登录的 [TXT 浏览页](https://gitee.com/xxxxzhu/china-football-development/blob/main/docs/china-football-development.txt) 和 [TXT 下载链接](https://gitee.com/xxxxzhu/china-football-development/raw/main/docs/china-football-development.txt)。也可以从 [GitHub 下载 TXT 原文](https://raw.githubusercontent.com/yingzao-studio/china-football-development/main/docs/china-football-development.txt)。
+
+## 国内大模型实测和用法
+
+| 平台 | 实测结果 | 使用方法 |
+| --- | --- | --- |
+| DeepSeek | 智能搜索模式读取 Gitee 的 TXT 浏览页，三问全对。GitHub 和 Gitee 的原始下载链接均读取失败。 | 开启「智能搜索」，把上面的 Gitee TXT 浏览页链接和问题一起发给 DeepSeek。 |
+| 豆包 | 直接读取 GitHub 的 TXT 原文链接，三问全对。 | 把上面的 GitHub TXT 原文链接和问题一起发给豆包。 |
+| 通义千问（阿里云百炼 Qwen3.8-Max） | 开启搜索后仍无法读取 Gitee 的 TXT 浏览页。把 TXT 作为附件上传后，关闭搜索也能答对三问。 | 从上面的 Gitee TXT 下载链接保存 `china-football-development.txt`。在百炼体验中心打开「文本模型」，选 Qwen3.8-Max，点「+」→「文件&文档」，上传 TXT。等解析完成，再发送问题。 |
+
+实测使用了同一道预算题。请模型只依据 TXT 引用「示例直接支出上限」开头的短句并给出金额，列出裁判与办赛和导师各自的预算，再用一句话分析应优先压缩哪项开支及其依据。通过测试的答案均给出预算上限 18,000 元、裁判与办赛 4,000 元、导师 3,000 元，并依据原文建议先减少跨区交通开支。
 
 试用问题：用官方赛程给我做一份国足观赛清单，或者用工作簿设计一支球队的 90 天受压出球试点。
 
