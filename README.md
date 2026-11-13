@@ -13,13 +13,13 @@
 | [Skill 入口](china-football-development/SKILL.md) | 支持 Skill 的平台可导入整个 `china-football-development` 目录。 |
 | [球员和教练工作簿](china-football-development/assets/player-coach-workbook.xlsx) | 球员跟踪、教练现场观察和教练改进计划。 |
 
-Gitee 提供免登录的 [TXT 浏览页](https://gitee.com/xxxxzhu/china-football-development/blob/main/docs/china-football-development.txt) 和 [TXT 下载链接](https://gitee.com/xxxxzhu/china-football-development/raw/main/docs/china-football-development.txt)。也可以从 [GitHub 下载 TXT 原文](https://raw.githubusercontent.com/yingzao-studio/china-football-development/main/docs/china-football-development.txt)。
+Gitee 提供免登录的 [TXT 浏览页](https://gitee.com/xxxxzhu/china-football-development/blob/main/docs/china-football-development.txt) 和 [TXT 下载链接](https://gitee.com/xxxxzhu/china-football-development/raw/main/docs/china-football-development.txt)。也可打开 [GitHub TXT 浏览页](https://github.com/yingzao-studio/china-football-development/blob/main/docs/china-football-development.txt) 或 [下载 GitHub TXT 原文](https://raw.githubusercontent.com/yingzao-studio/china-football-development/main/docs/china-football-development.txt)。
 
 ## 国内大模型实测和用法
 
 | 平台 | 实测结果 | 使用方法 |
 | --- | --- | --- |
-| DeepSeek | 智能搜索模式读取 Gitee 的 TXT 浏览页，三问全对。GitHub 和 Gitee 的原始下载链接均读取失败。 | 开启「智能搜索」，把上面的 Gitee TXT 浏览页链接和问题一起发给 DeepSeek。 |
+| DeepSeek | 开启智能搜索后，GitHub 和 Gitee 的 TXT 浏览页均读取成功，三问全对。两站的原始下载链接均读取失败。 | 开启「智能搜索」，把上面任一 TXT 浏览页的链接和问题一起发给 DeepSeek。 |
 | 豆包 | Gitee 的 TXT 原始下载链接在专家模式下三问全对，快速模式回复读取失败。Gitee 的 TXT 浏览页在两种模式下均未答题。此前用 GitHub 的 TXT 原文链接也曾答对三问。 | 在新对话中把「快速」切换为「专家」，把上面的 Gitee TXT 下载链接和问题一起发给豆包。也可以使用 GitHub 的 TXT 原文链接。 |
 | 通义千问（阿里云百炼 Qwen3.8-Max） | 开启搜索后，GitHub 和 Gitee 的 TXT 浏览页及原始下载链接均读取失败，三问未作答。把 TXT 作为附件上传后，关闭搜索也能答对三问。 | 从上面的 Gitee TXT 下载链接保存 `china-football-development.txt`。在百炼体验中心打开「文本模型」，选 Qwen3.8-Max，点「+」→「文件&文档」，上传 TXT。等解析完成，再发送问题。 |
 
